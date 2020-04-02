@@ -30,9 +30,9 @@ int main(int argc, char **argv){
     char *path = NULL;
     opterr = access_state = modificed_state = false;
     if(argc == 1){
-		help();
-		return EOF;
-	}
+	help();
+	return EOF;
+    }
     while((opt = getopt(argc, argv, "a:m:d:t:h")) != EOF){
         switch(opt){
             case  'a' :
