@@ -1,5 +1,5 @@
 TARGET = dtchange
-PREFIX = /usr/local/bin
+PREFIX = /usr/bin
 CFLAGS = -Wall -Wextra
 CC = gcc
 OBJECTS = dtchange.o access.o modificed.o converter.o error.o
