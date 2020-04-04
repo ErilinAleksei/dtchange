@@ -1,6 +1,3 @@
-			Version 1.0 
-			02/04/2020 
-
 Description
 ===========
 
